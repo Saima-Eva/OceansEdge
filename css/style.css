@@ -1,0 +1,138 @@
+body {
+    font-family: sans-serif;
+    color: #fff;
+}
+/*header start*/
+header {
+    background-color: #121B2A;
+}
+.menu ul li a {
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 0 10px !important;
+    transition: 0.3s ease;
+}
+.menu ul li a:hover,
+.menu ul li .active {
+    color: #0078BD !important;
+}
+.menu ul li:last-child a {
+    padding-right: 0 !important;
+}
+/*header end*/
+/*banner start*/
+#banner {
+    padding: 220px 0 60px;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b_content h1 {
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.b_content h2 {
+    font-size: 30px;
+    color: #0075BA;
+    text-transform: capitalize;
+    margin: 0;
+}
+.b_content p {
+    margin-bottom: 20px;
+}
+.b_content button {
+    font-weight: 700;
+    font-size: 18px;
+    color: #757575;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: 0.4s ease;
+}
+.b_content button i {
+    font-size: 20px;
+    color: #0075BA;
+    margin-left: 8px;
+}
+.b_content button:hover {
+    color: #0075BA;
+}
+/*banner end*/
+/*service start*/
+#service {
+    padding-bottom: 60px;
+    background-color: #121B2C;
+}
+.single {
+    margin-top: 60px;
+}
+.title {
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0;
+}
+.title span {
+    color: #0079BC;
+}
+.single h3 {
+    font-size: 22px;
+    color: #0079BC;
+    margin: 0;
+}
+.single p {
+    margin: 16px 0 0;
+}
+.border_right {
+    border-right: 1px solid #1A2430;
+}
+/*service end*/
+/*contact start*/
+#contact {
+    padding: 60px 0;
+    background-color: #040811;
+}
+.c_content td {
+    padding-left: 16px;
+}
+#talkbubble {
+    padding: 20px;
+    background-color: #0C1019;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 15%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 2px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 15px solid #0C1019;
+}
+#talkbubble p {
+    margin-top: 16px;
+}
+/*contact end*/
+/*footer start*/
+footer {
+    padding: 30px 0;
+    background-color: #121B2C;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+}
+footer ul li a:hover {
+    color: #0078BD;
+    text-decoration: none;
+}
+/*footer end*/
